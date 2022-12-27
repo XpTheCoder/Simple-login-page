@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+font-family: montserrat;
+background-image: linear-gradient(to right, red , blue);
+height: 100vh;
+overflow:hidden;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+    background-color:white;
+    border-radius: 15px;
+}
+
+.center h1{
+    text-align: center;
+    padding:0 0 20px 0 ;
+    border-bottom: 1px silver;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.txt_field{
+position: relative;
+border-bottom:2px slid #adadad;
+margin: 30px;
+}
+.txt_field input{
+    width: 70%;
+    padding:0 5px;
+    height: 20px;
+    font-size: 16px;
+    background: none;
+    background-color: none;
+    border-radius: 15px;
+}
+
+.Pass{
+    position: relative;
+    left:290px;
+    border:none;
+    letter-spacing: 1px;
+    bottom: 20px;
+}
+
+input[TYPE='SUBMIT']{
+    width: 50%;
+    height: 50px;
+    margin: 0 100px;
+    border: 1px solid;
+    background: linear-gradient(to right, red , blue);
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline:none;
+
+}
+input[tpye='submit']:hover{
+    border-color: #adadad;
+    transition: .5s;
+}
+
+.Signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: crimson;
+    cursor: pointer;
+}
+
+
+
+
